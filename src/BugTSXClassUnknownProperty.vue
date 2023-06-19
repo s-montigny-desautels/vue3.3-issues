@@ -7,6 +7,7 @@ function update(msg: string) {}
 
 <template>
   <div>
+    <!-- Class is not present in props typing -->
     <GenericTsx class="" :msg="''" />
     <GenericVue class="" :msg="''" />
   </div>
